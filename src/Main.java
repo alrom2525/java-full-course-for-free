@@ -92,6 +92,12 @@ public class Main {
         scanner.close(); */
 
         // #8   (01:01:08)  random numbers 🎲
+        Random random = new Random();
+        int randomInt = random.nextInt(6);
+        double randomDouble = random.nextDouble(6);
+        boolean randomBoolean = random.nextBoolean();
+
+        System.out.println(randomBoolean);
     }
 
 }
