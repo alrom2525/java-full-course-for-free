@@ -1,6 +1,6 @@
-import java.util.Scanner;
-import javax.swing.JOptionPane;
-import java.util.Random;
+// import java.util.Scanner;
+// import javax.swing.JOptionPane;
+// import java.util.Random;
 
 public class Main {
 
@@ -92,12 +92,25 @@ public class Main {
         scanner.close(); */
 
         // #8   (01:01:08)  random numbers 🎲
-        Random random = new Random();
+        /* Random random = new Random();
         int randomInt = random.nextInt(6);
         double randomDouble = random.nextDouble(6);
         boolean randomBoolean = random.nextBoolean();
 
-        System.out.println(randomBoolean);
+        System.out.println(randomBoolean);*/
+
+        // #9   (01:05:39)  if statements 🚧
+        int age = 14;
+        if (age >= 75) {
+            System.out.println("Ok Boomer!");
+        } else if (age >= 18){
+            System.out.println("You are an adult!");
+        }
+        else if (age >= 13){
+            System.out.println("You are a teenager!");
+        } else {
+            System.out.println("You are not an adult!");
+        }
     }
 
 }
