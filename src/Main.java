@@ -100,7 +100,7 @@ public class Main {
         System.out.println(randomBoolean);*/
 
         // #9   (01:05:39)  if statements 🚧
-        int age = 14;
+        /*int age = 14;
         if (age >= 75) {
             System.out.println("Ok Boomer!");
         } else if (age >= 18){
@@ -110,7 +110,36 @@ public class Main {
             System.out.println("You are a teenager!");
         } else {
             System.out.println("You are not an adult!");
-        }
-    }
+        }*/
 
+        // 10 (01:11:51)  switches ⬇
+        String day = "Wows";
+        switch (day){
+            case "Sunday":
+                System.out.println("It is Sunday!");
+                break;
+            case "Monday":
+                System.out.println("It is Monday!");
+                break;
+            case "Tuesday":
+                System.out.println("It is Tuesday!");
+                break;
+            case "Wednesday":
+                System.out.println("It is Wednesday!");
+                break;
+            case "Thursday":
+                System.out.println("It is Thursday!");
+                break;
+            case "Friday":
+                System.out.println("It is Friday!");
+                break;
+            case "Shabat":
+                System.out.println("It is Shabat!");
+                break;
+            default :
+                System.out.println("That is not a day!");
+        }
+
+
+    }
 }
