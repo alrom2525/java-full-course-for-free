@@ -8,10 +8,29 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // #13 (01:28:13)  for loop ➰
-        for (int index = 10; index >= 1; index--){
-            System.out.println(index);
+        // #14 (01:32:23)  nested loops ➿
+        Scanner scanner = new Scanner(System.in);
+        int rows, columns;
+        String symbol = "";
+        System.out.println("Enter number of rows: ");
+        rows = scanner.nextInt();
+        System.out.println("Enter number of columns: ");
+        columns = scanner.nextInt();
+        System.out.println("Enter symbol to use: ");
+        symbol = scanner.next();
+        for(int index = 1; index <= rows; index++) {
+            System.out.println("");
+            for(int j = 1; j <= columns; j++) {
+                System.out.print(symbol);
+            }
         }
+
+        // #13 (01:28:13)  for loop ➰
+        /*
+        for (int index = 10; index >= 1; index--){
+
+            System.out.println(index);
+        } */
 
         // #12 (01:24:33)  while loop 🔄
         /*
@@ -75,7 +94,7 @@ public class Main {
             System.out.println("What is your favorite food?");
             String food = scanner.nextLine();
 
-            System.out.println("Helo " + name);
+            System.out.println("Hello " + name);
             System.out.println("You are " + age + " years old");
             System.out.println("You like " + food);
         }*/
