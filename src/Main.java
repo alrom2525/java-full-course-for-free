@@ -2,14 +2,22 @@
 // import javax.swing.JOptionPane;
 // import java.util.Random;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
+        // #15 (01:38:28)  arrays 🚗
+
+        String[] cars = {"Camaro", "Corvette", "Tesla", "BMW"};
+        for (int i = 0; i < cars.length ; i++) {
+            System.out.println(cars[i]);
+        }
+        
         // #14 (01:32:23)  nested loops ➿
-        Scanner scanner = new Scanner(System.in);
+        /* Scanner scanner = new Scanner(System.in);
         int rows, columns;
         String symbol = "";
         System.out.println("Enter number of rows: ");
@@ -23,7 +31,7 @@ public class Main {
             for(int j = 1; j <= columns; j++) {
                 System.out.print(symbol);
             }
-        }
+        } */
 
         // #13 (01:28:13)  for loop ➰
         /*
@@ -204,5 +212,10 @@ public class Main {
         */
 
 
+
+
     }
 }
+
+
+
