@@ -7,6 +7,16 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
+        // #12 (01:24:33)  while loop 🔄
+        Scanner scanner = new Scanner(System.in);
+        String name = "";
+        do {
+            System.out.print("Enter your name: ");
+            name = scanner.nextLine();
+        } while (name.isBlank());
+        System.out.print("Hello " + name);
+
         // #1   (00:00:00)  Java tutorial for beginners ☕
 		/*
 
@@ -156,6 +166,7 @@ public class Main {
         }*/
 
         // OR operator
+        /*
         Scanner scanner = new Scanner(System.in);
         System.out.println("You are playing a game! Press q or Q to quit");
         String response = scanner.next();
@@ -164,6 +175,8 @@ public class Main {
         } else {
             System.out.println("You are quit the game!");
         }
+        */
+
 
     }
 }
