@@ -8,7 +8,13 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // #13 (01:28:13)  for loop ➰
+        for (int index = 10; index >= 1; index--){
+            System.out.println(index);
+        }
+
         // #12 (01:24:33)  while loop 🔄
+        /*
         Scanner scanner = new Scanner(System.in);
         String name = "";
         do {
@@ -16,6 +22,7 @@ public class Main {
             name = scanner.nextLine();
         } while (name.isBlank());
         System.out.print("Hello " + name);
+        */
 
         // #1   (00:00:00)  Java tutorial for beginners ☕
 		/*
