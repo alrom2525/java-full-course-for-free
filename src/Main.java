@@ -9,8 +9,22 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // #17 (01:52:59)  String methods 💬
+        String name = "Bro";
+        // boolean result = name.equalsIgnoreCase("bro");
+        // int result = name.length();
+        // char result = name.charAt(1); // get the a character at 0 positions
+        // int result = name.indexOf("A"); // return the position if the character is not found return (-1)
+        // boolean result = name.isEmpty();
+        // String result = name.toUpperCase();
+        // String result = name.toLowerCase();
+        // String result = name.trim();
+        String result = name.replace('o','a');
+
+        System.out.println(result);
+
         // #16 (01:44:54)  2D arrays 🚚
-        String[][] cars = new String[3][3];
+        /* String[][] cars = new String[3][3];
         cars[0][0] = "Camaro";
         cars[0][1] = "Corvette";
         cars[0][2] = "Silverado";
@@ -34,7 +48,7 @@ public class Main {
             for (int j = 0; j < cars2[i].length; j++) {
                 System.out.print(cars2[i][j] + " - ");
             }
-        }
+        } */
         
         // #15 (01:38:28)  arrays 🚗
         /* String[] cars = {"Camaro", "Corvette", "Tesla", "BMW"};
