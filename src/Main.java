@@ -9,8 +9,23 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // #18 (01:59:18)  wrapper classes 🎁
+        // autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes.
+        // unboxing is the reverse of autoboxing. Is converting an object of a wrapper type (Integer) to its corresponding primitive (int) value
+
+        Boolean a = true;
+        Character b = '@';
+        Integer c = 123;
+        Double d = 3.14;
+        String e = "Bro";
+
+        // unboxig feature
+        if(a == true){
+            System.out.println("This is true");
+        }
+
         // #17 (01:52:59)  String methods 💬
-        String name = "Bro";
+        // String name = "Bro";
         // boolean result = name.equalsIgnoreCase("bro");
         // int result = name.length();
         // char result = name.charAt(1); // get the a character at 0 positions
@@ -19,9 +34,9 @@ public class Main {
         // String result = name.toUpperCase();
         // String result = name.toLowerCase();
         // String result = name.trim();
-        String result = name.replace('o','a');
+        // String result = name.replace('o','a');
 
-        System.out.println(result);
+        // System.out.println(result);
 
         // #16 (01:44:54)  2D arrays 🚚
         /* String[][] cars = new String[3][3];
